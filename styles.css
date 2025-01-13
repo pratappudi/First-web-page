@@ -1,0 +1,151 @@
+
+
+.container,.one,.headerlogo{
+    display: flex;
+    background-color: #1f2937;
+    gap: 2rem;
+    flex: 1;
+   
+}
+.one{
+    justify-content:flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: flex-start;
+    font-weight: 800;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.body-container,.main-text{
+    display: flex;
+    flex:1;
+    background-color: #1f2937;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0;
+    
+}
+.main-text{
+    flex-direction: column;
+    
+    display: flex;
+    flex:1;
+}
+.text{
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.image{
+    height: auto;
+    width:30%;
+    border-radius: 20%;
+}
+.button{
+    color: #3882f6;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.body-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+    margin: 20px;
+}
+.random{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+}
+.list{
+    display: flex;
+
+    align-items: center;
+    gap:2rem;
+    flex-wrap: nowrap;
+
+}
+.image{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.subtext{
+    font-family: Roboto;
+    text-align: center;
+}
+.image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.image_1 img{
+    height: auto;
+    width: 300px;
+    border-radius: 10%;
+}
+.quote{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    padding: 20px;
+    margin: 20px;
+}
+.by{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    align-items: center;
+    font-weight: 900;
+}
+.footer{
+    display: flex;
+    background-color: blueviolet;
+    padding: 40px;
+    margin: 20px;
+    justify-content: space-between;
+}
+.action{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+.down-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.button1{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
